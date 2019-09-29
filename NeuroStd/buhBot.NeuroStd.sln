@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buhBot.NeuroStd.Clients.ConcoleApp", "buhBot.NeuroStd.Clients.ConcoleApp.csproj", "{0320A4D8-5FF9-478C-94D2-C5B23E276EB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buhBot.NeuroStd.Core.Perceptron.Impl", "..\buhBot.NeuroStd.Core.Perceptron.Impl\buhBot.NeuroStd.Core.Perceptron.Impl.csproj", "{013EB673-696B-445E-91E2-AEC91CD436B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{42CBDAB8-A73D-4892-902E-B525D6E6376E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{3292B54B-F83A-4E72-8B34-03D217EB7B17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{66FDC5F8-AAD6-497C-96A9-655E0B256000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{10D62FE7-80C2-4E64-A1A9-6171129B1C4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{7EC1171C-6B8D-430A-B68A-69367B852ED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buhBot.NeuroStd.Core.Perceptron.Base", "..\buhBot.NeuroStd.Core.Perceptron.Base\buhBot.NeuroStd.Core.Perceptron.Base.csproj", "{2495FA04-AAE5-49CE-A3C3-08B6E000E887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0320A4D8-5FF9-478C-94D2-C5B23E276EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0320A4D8-5FF9-478C-94D2-C5B23E276EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0320A4D8-5FF9-478C-94D2-C5B23E276EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0320A4D8-5FF9-478C-94D2-C5B23E276EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013EB673-696B-445E-91E2-AEC91CD436B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013EB673-696B-445E-91E2-AEC91CD436B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013EB673-696B-445E-91E2-AEC91CD436B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013EB673-696B-445E-91E2-AEC91CD436B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2495FA04-AAE5-49CE-A3C3-08B6E000E887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2495FA04-AAE5-49CE-A3C3-08B6E000E887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2495FA04-AAE5-49CE-A3C3-08B6E000E887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2495FA04-AAE5-49CE-A3C3-08B6E000E887}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0320A4D8-5FF9-478C-94D2-C5B23E276EB4} = {7EC1171C-6B8D-430A-B68A-69367B852ED2}
+		{013EB673-696B-445E-91E2-AEC91CD436B7} = {42CBDAB8-A73D-4892-902E-B525D6E6376E}
+		{2495FA04-AAE5-49CE-A3C3-08B6E000E887} = {42CBDAB8-A73D-4892-902E-B525D6E6376E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {312DB095-AC46-4202-BB3F-2E041CF3B0DD}
+	EndGlobalSection
+EndGlobal
